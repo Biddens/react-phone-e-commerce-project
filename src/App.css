@@ -1,9 +1,8 @@
 :root {
-  --mainBlue: #2a2a72;
+  --mainBrown: #c57814;
   --lightBlue: #009ffd;
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
-  --mainDark: #000;
   --mainYellow: #ffa400;
 }
 
@@ -12,34 +11,50 @@ body {
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
+
 .text-title {
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker',cursive;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
+
 .text-blue {
-  color: var(--mainBlue);
+  color: var(--mainBrown);
 }
+
 .text-bright {
-  color: var(--lightBlue);
+  color: var(--mainDark);
 }
-.navbar {
-  justify-content: flex-start !important;
-}
+
 .btn-black {
   background: transparent;
   text-transform: capitalize;
   font-size: 0.8rem !important;
-  color: var(--mainBlack);
+  color: var(--mainDark);
   border-radius: 0 !important;
-  border: 0.1rem solid var(--mainDark) !important;
+  border: 0.1rem solid var(--mainBrown) !important;
 }
+
 .btn-black:hover {
   background: var(--mainDark) !important;
-  color: var(--mainWhite) !important;
+  color: var(--mainBrown) !important;
 }
-.cart-icon {
-  cursor: pointer;
-  font-size: 1.2rem;
-  color: var(--mainYellow);
+
+.navbar {
+  background: var(--mainBrown) !important;
+}
+
+.img-fluid {
+  height: 100px;
+  width: 500px;
+}
+
+.navbar-brand {
+  border-radius: 50%;
+  height: 50px;
+  width: 40px;
+}
+
+.company {
+  text-indent: -50px;
 }
