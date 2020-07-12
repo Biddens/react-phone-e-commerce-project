@@ -17,9 +17,9 @@ https://www.iconfinder.com/Makoto_msk */}
 
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-            <Link to="/" className="nav-link">
-              LWEZA CLAYS LTD
-            </Link>
+             <Link to="/" className="nav-link">
+              <h2 className="company">LWEZA CLAYS LTD</h2>
+             </Link>
           </li>
         </ul>
         <Link to="/cart" className="ml-auto">
@@ -36,7 +36,7 @@ https://www.iconfinder.com/Makoto_msk */}
 }
 
 const Nav = styled.nav`
-  background: var(--mainBlue);
+  background: var(--mainBrown);
   .nav-link {
     color: var(--mainWhite) !important;
     font-size:1.3rem;
